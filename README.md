@@ -2,7 +2,19 @@
 
 Utilize modelos Ollama para resumir PDFs e realizar consultas contextuais no terminal.
 
-## Requisitos
+
+## **Sumário**
+
+1. [Requisitos](#requisitos)
+2. [Instalação]
+   - [Instalação por `install.sh`](#instalação-por-installsh)
+   - [Instalação Manual](#instalação-manual)
+3. [Uso](#uso)
+4. [Funcionamento](#funcionamento)
+5. [Licença](#licença)
+
+
+## **Requisitos**
 
 - Python 3
 - Ollama
@@ -13,7 +25,7 @@ Basta executar `install.sh` e o ambiente será preparado.
 
 ## Instalação Manual
 
-O script `chat-pdf.sh` criará automaticamente um ambiente virtual (venv) caso ele não exista. Certifique-se de que `<span>requirements.txt` esteja no diretório do script.
+O script `chat-pdf.sh` criará automaticamente um ambiente virtual (venv) caso ele não exista. Certifique-se de que `requirements.txt` esteja no diretório do script.
 
 ### Permissões de Execução
 
@@ -45,10 +57,10 @@ chat-pdf documento.pdf
 
 ### Argumentos:
 
-- `<span> <arquivo.pdf></span>`: Caminho para o arquivo PDF a ser processado.
-- `<span> --benchmark [modelo]</span>` (opcional): Executa o script em modo benchmark. Pode-se especificar um modelo (padrão: `<span>llama3.2</span>`).
-- `<span>--help</span>`: Exibe a mensagem de ajuda.
-- `<span>--manual</span>`: Exibe o manual detalhado.
+- `<arquivo.pdf>`: Caminho para o arquivo PDF a ser processado.
+- `--benchmark [modelo]` (opcional): Executa o script em modo benchmark. Pode-se especificar um modelo (padrão: `llama3.2`).
+- `--help`: Exibe a mensagem de ajuda.
+- `--manual`: Exibe o manual detalhado.
 
 ### Exemplos de uso
 
@@ -75,8 +87,8 @@ Executar em modo benchmark com modelo específico:
 1. Verifica a existência do arquivo PDF.
 2. Configura o ambiente virtual e instala dependências se necessário.
 3. Executa o script apropriado:
-   - `<span>pdf-rag-bash.py</span>` para processamento normal.
-   - `<span>benchmark-pdf.py</span>` para benchmarking.
+   - `pdf-rag-bash.py` para processamento normal.
+   - `benchmark-pdf.py` para benchmarking.
 
 ## Licença
 
