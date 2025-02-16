@@ -6,7 +6,7 @@ Utilize modelos Ollama para resumir PDFs e realizar consultas contextuais no ter
 ## **Sumário**
 
 1. [Requisitos](#requisitos)
-2. [Instalação]
+2. Instalação
    - [Instalação por `install.sh`](#instalação-por-installsh)
    - [Instalação Manual](#instalação-manual)
 3. [Uso](#uso)
