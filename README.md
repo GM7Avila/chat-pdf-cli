@@ -79,7 +79,7 @@ Executar em modo benchmark com modelo padrão:
 Executar em modo benchmark com modelo específico:
 
 ```
-./chat-pdf.sh documento.pdf --benchmark gemini-pro
+./chat-pdf.sh documento.pdf --benchmark deepseek-r1
 ```
 
 ## Funcionamento
