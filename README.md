@@ -37,7 +37,9 @@ O script `chat-pdf.sh` criará automaticamente um ambiente virtual (venv) caso e
 
 Caso o script não tenha permissões de execução, conceda-as com o seguinte comando:
 
+```
 chmod +x chat-pdf.sh
+```
 
 Isso permitirá que o script seja executado diretamente como um comando no terminal.
 
