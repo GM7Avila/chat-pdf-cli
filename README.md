@@ -2,6 +2,12 @@
 
 Utilize modelos Ollama para resumir PDFs e realizar consultas contextuais no terminal.
 
+<br>
+<div style="display: flex; gap: 10px;">
+  <img src="https://github.com/user-attachments/assets/cac49f47-e419-4894-bfaa-620ae9d6ad54" style="width: 48%;">
+  <img src="https://github.com/user-attachments/assets/d6f18664-b1e2-4bf6-bc68-3d80e75c7c39" style="width: 48%;">
+</div>
+<br>
 
 ## **Sumário**
 
@@ -81,6 +87,7 @@ Executar em modo benchmark com modelo específico:
 ```
 ./chat-pdf.sh documento.pdf --benchmark deepseek-r1
 ```
+
 
 ## Funcionamento
 
